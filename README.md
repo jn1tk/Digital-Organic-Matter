@@ -6,6 +6,8 @@ I tried to express a life form like an amoeba on screen.
 
 ## Screenshots
 
+https://unique-liger-0068f4.netlify.app/demo.html
+
 ![App Screenshot](https://unique-liger-0068f4.netlify.app/screenshot/main.png)
 
 
