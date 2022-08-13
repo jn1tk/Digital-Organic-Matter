@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Organic Matter</title>
+    <script src="./_dombase.js"></script>
+    <style>
+        body,
+        canvas {
+        padding: 0;
+        margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        window.onload = function () {
+            /* FOR DEMO */
+            var getParams = (new URL(document.location)).searchParams;
+            var _num = parseInt(getParams.get('num'));
+            var _size = parseInt(getParams.get('size'));
+            var _gap = parseInt(getParams.get('gap'));
+            var w = getParams.get('w')&&getParams.get('w')<=500?parseInt(getParams.get('w')):null;
+            var h = getParams.get('h')&&getParams.get('h')<=500?parseInt(getParams.get('h')):null;
+            if(_size < 3 && !(w <= 500 && h <= 500)){
+                if(_size==3){
+                    w,h = 500;
+                }else{
+                    w,h = 300;
+                }
+            }
+            /* FOR DEMO */
+            
+            var _base = new domBase(_num,{size:_size,gap:_gap},{width:w,height:h});
+            _base.init();
+        };
+    </script>
+</body>
+</html>
