@@ -6,9 +6,9 @@ I tried to express a life form like an amoeba on screen.
 
 ## Screenshots
 
-https://unique-liger-0068f4.netlify.app/demo.html
+http://dom.jntk.net/demo.html
 
-![App Screenshot](https://unique-liger-0068f4.netlify.app/screenshot/main.png)
+![App Screenshot](http://dom.jntk.net/screenshot/main.png)
 
 
 ## Usage/Examples
@@ -46,8 +46,8 @@ Also, even if the number of living organisms is too large, it requires PC's powe
 var _base = new domBase(2,{size:3,gap:2},{width:200,height:200});
 ```
 
-https://unique-liger-0068f4.netlify.app/demo.html?num=2&size=3&gap=2&w=200&h=200
-![App Screenshot](https://unique-liger-0068f4.netlify.app/screenshot/1.png)
+http://dom.jntk.net/demo.html?num=2&size=3&gap=2&w=200&h=200
+![App Screenshot](http://dom.jntk.net/screenshot/1.png)
 
 
 
@@ -55,8 +55,8 @@ https://unique-liger-0068f4.netlify.app/demo.html?num=2&size=3&gap=2&w=200&h=200
 var _base = new domBase(null,{size:6,gap:4},{width:400,height:200});
 ```
 
-https://unique-liger-0068f4.netlify.app/demo.html?size=6&gap=4&w=400&h=200
-![App Screenshot](https://unique-liger-0068f4.netlify.app/screenshot/2.png)
+http://dom.jntk.net/demo.html?size=6&gap=4&w=400&h=200
+![App Screenshot](http://dom.jntk.net/screenshot/2.png)
 
 
 
