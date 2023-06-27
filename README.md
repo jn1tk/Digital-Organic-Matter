@@ -6,9 +6,9 @@ I tried to express a life form like an amoeba on screen.
 
 ## Screenshots
 
-http://dom.jntk.net/demo.html
+http://dom.jntk.work/demo.html
 
-![App Screenshot](http://dom.jntk.net/screenshot/main.png)
+![App Screenshot](http://dom.jntk.work/screenshot/main.png)
 
 
 ## Usage/Examples
@@ -47,7 +47,7 @@ var _base = new domBase(2,{size:3,gap:2},{width:200,height:200});
 ```
 
 http://dom.jntk.net/demo.html?num=2&size=3&gap=2&w=200&h=200
-![App Screenshot](http://dom.jntk.net/screenshot/1.png)
+![App Screenshot](http://dom.jntk.work/screenshot/1.png)
 
 
 
@@ -56,7 +56,7 @@ var _base = new domBase(null,{size:6,gap:4},{width:400,height:200});
 ```
 
 http://dom.jntk.net/demo.html?size=6&gap=4&w=400&h=200
-![App Screenshot](http://dom.jntk.net/screenshot/2.png)
+![App Screenshot](http://dom.jntk.work/screenshot/2.png)
 
 
 
